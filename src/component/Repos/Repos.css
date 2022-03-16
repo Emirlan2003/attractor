@@ -1,0 +1,40 @@
+.repo{
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: gray;
+}
+.mainRepo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.repo span{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.repo a{
+    margin-left: 5px;
+}
+.repo div{
+    margin-top: 20px;
+}
+.public{
+    padding: 10px 20px;
+    background-color: rgb(233, 174, 49);
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reposBlock{
+    margin: 40px;
+}
+.private{
+    padding: 10px 20px;
+    background-color: rgb(116, 199, 255);
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}

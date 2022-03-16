@@ -1,0 +1,54 @@
+.otherMain{
+    text-align: center;
+    background: rgb(71, 43, 186);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.otherUserBlock{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.otherUser{
+    margin: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.otherUserBlock img{
+    width: 200px;
+    height: 170px;
+}
+.loadBtn{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px 100px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.loadBtn:hover{
+    background-position: right center;
+}
+.headerOther{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
